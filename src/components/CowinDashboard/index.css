@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.appCont {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vh;
+}
+
+.webLogo {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+.head1 {
+  color: #2cc6c6;
+  font-family: 'roboto';
+  font-size: 25px;
+}
+
+.coWinHead {
+  display: flex;
+}
+
+.head2 {
+  color: #cbd5e1;
+  font-family: 'roboto';
+}
+
+.loaderStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.failureView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failureImg {
+  width: 50%;
+  margin: 10px;
+}
+.failureHead {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
+}
